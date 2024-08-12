@@ -1,4 +1,4 @@
-# LinkedIn-Analytics
+# LinkedIn Analytics: Telling my LinkedIn Story with Power BI
 ![Purple Minimalist Brush Personal LinkedIn Banner (2)](https://github.com/user-attachments/assets/c23860f8-bd54-4845-9cc8-803d02dbd5c7)
 
 ## Introduction:
