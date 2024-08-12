@@ -23,18 +23,52 @@ I exported my LinkedIn analytics from August 1st, 2023, to August 8th, 2024. Thi
 
 * **Data Description:**
 
+The original dataset contained 5 separate sheets:
 
+1. **DISCOVERY**- A summary of total total impressions and unique view between 8/7/2023 - 8/5/2024
 
+2. **ENGAGEMENT** - Had 3 columns and 365 rows.
+
+| Column Name | Data Type |
+| :-- | :-- |
+| Date | Text |
+| Impressions | Whole Number |
+| Engagements | Whole Number |
+   
+3. **TOP POSTS** - Contain informations on Posts
+
+| Column Name | Data Type |
+| :-- | :-- |
+| Post URL | Text |
+| Post Publish Date | Text |
+| Impressions | Whole Number |
+| Engagements | Whole Number |
+   
+4. **FOLLOWERS** - 365 days' data on new followers
+
+| Column Name | Data Type |
+| :-- | :-- |
+| Date | Text |
+| New Followers | Whole Number |
+   
+5. **DEMOGRAPHICS** - Demographic information about profile viewers
+
+| Column Name | Data Type | Description |
+| :-- | :-- | :-- | 
+| Top Demographic | Text | Demographic category (eg. industry, job title, location etc) |
+| Value | Text | Top 5 Individual values under demographic category |
+| Percentage | Percentage | % of total viewers under each demographic category |
 
 ## 2. Cleaning and Organizing Data:
 Using Power Query I handled missing values, changed datatypes and column headers and transformed the data formatting. I also joined tables and added new columns. Using M-code, I created a Date Table to extract month, weekday, week number, and year information.
 
-This is how the data is structured in Power BI.
+This is how the data is structured in Power BI, after cleaning and transforming.
+![Data Model](https://github.com/user-attachments/assets/dbbefe38-7eed-44af-98cf-2640a798fc06)
 
 ## 3. Identifying Metrics:
 
-- Followers:
-- Connections:
+- Followers: LinkedIn followers are users who choose to see one's posts and updates in their feed. 
+- Connections: Connections are mutual relationships where both parties have agreed to network, allowing direct messaging and profile access.
 - Posts: The contents one shares on Linkedin. Can be images, videos, articles, documents, links etc.
 - Engagements: Once a content is posted, people engage with them through likes, comments, shares/reposts.
 - Impressions: It is the number of times the contents been displayed on users’ screens regardless their interaction with them.
@@ -108,8 +142,7 @@ I’ve been posting an average of 0.87 posts per week, just under one post weekl
 * My followers grew by 805%, nearly eight times more than the previous year.
 * Even though I mostly post on Tuesdays, people engage more on Fridays.
 * My LinkedIn activity spiked between May and July, during my virtual internship when I shared four complete data analysis projects with detailed reports.
-* Finally, using Power BI, I’ve transformed my LinkedIn analytics into a powerful, easy-to-use dashboard.
-  
+ 
 ## Key takeaways:
 Now that I know which types of posts are most engaging, I can create more valuable content, using visuals and project work to experiment with data analysis tools and explain them through simple posts and articles.
 
