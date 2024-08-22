@@ -160,3 +160,9 @@ I can now add my weekly LinkedIn analytics data and refresh this dashboard to ge
 ## Appendix:
 
 * [LinkedIn Analytics: Telling my LinkedIn Story with Power BI - Article](https://www.linkedin.com/pulse/linkedin-analytics-arpita-deb-uhiuc/?trackingId=rlNLsqG4TDeIC5I5m%2Be42A%3D%3D)
+
+## License:
+
+[LinkedIn Analytics: Telling my LinkedIn Story with Power BI](https://github.com/Arpita-deb/LinkedIn-Analytics.git) is licensed under the MIT License for code, and a Proprietary License for the included data.
+
+You may use, modify, and distribute the code as per the MIT License, but the data contained within this repository is not to be replicated, reproduced, or distributed in any form without explicit permission from the author.
